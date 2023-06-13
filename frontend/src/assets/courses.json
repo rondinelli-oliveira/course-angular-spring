@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "name": "Angular",
+    "category": "Front-end development"
+  },
+  {
+    "_id": 2,
+    "name": "Spring",
+    "category": "Back-end development"
+  },
+  {
+    "_id": 3,
+    "name": "Docker",
+    "category": "DevOps"
+  },
+  {
+    "_id": 4,
+    "name": "Jekins",
+    "category": "CI/CD"
+  },
+  {
+    "_id": 5,
+    "name": "Prometheus",
+    "category": "Monitoring"
+  },
+  {
+    "_id": 6,
+    "name": "Grafana",
+    "category": "metrics of application"
+  }
+]
