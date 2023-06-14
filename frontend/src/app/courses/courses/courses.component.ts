@@ -11,10 +11,12 @@ import { Observable } from 'rxjs';
 })
 export class CoursesComponent {
 
+  courses$: Observable<Course[]> ;
+
   constructor(private coursesService: CoursesService) {
-    this.courses = this.coursesService.list()
+    this.courses$ = this.coursesService.list()
   }
 
-  courses: Observable<Course[]> ;
+
   displayedColumns = ['_id', 'name', 'category'];
 }
