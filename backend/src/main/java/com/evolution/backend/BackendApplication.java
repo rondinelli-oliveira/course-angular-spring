@@ -24,6 +24,12 @@ public class BackendApplication {
 			c.setCategory("Front-end development");
 
 			courseRepository.save(c);
+
+			Course c1 = new Course();
+			c1.setName("Spring");
+			c1.setCategory("Back-end development");
+
+			courseRepository.save(c1);
 		};
 	}
 
